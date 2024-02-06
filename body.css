@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #2C326F;
+    margin: 0;
+    padding: 0; 
+}
+
+.why{    
+    font-size: 2.7rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.why h2{ 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tangerine', cursive;
+    font-weight: 600;
+}
+
+.divider
+{
+	position: relative;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, #f2f2f2, transparent);
+}
+
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -36px;
+	left: calc(50% - 7px);
+	width: 70px;
+	height: 70px;
+	transform: rotate(45deg);
+	background-color: #f2f2f2;
+	border-bottom: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.lmr{
+    flex: 33.33%;
+    padding: 30px 50px 0px 50px;
+}
+
+.lmr img{
+    width: 70px;
+}
+
+.lmr h3{
+    font-size: 25px;
+}
+
+.lmr ul{
+    line-height: 40px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+@media(max-width: 1100px) {
+    .lmr{
+        flex: 100%;
+    }
+}
+
+.saidus{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 50px;
+}
+
+.saidus h2{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Tangerine', cursive;
+    font-weight: 600;
+}
+
+.testimonials{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .inner{
+    max-width: 1700px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  .testimonial{
+    background: #f2f2f2;
+    border-radius: 50px;
+    padding: 30px;
+  }
+  .testimonial img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .testimonial p{
+    font-size: 20px;
+  }
+
+  .name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .stars img{
+      width: 20px;
+  }
+  
+  @media screen and (max-width:960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  .floatbox h3{
+    line-height: 30px;
+}
+  }
+
+  .divider2
+{
+	position: relative;
+	height: 1px;
+}
+
+.div-transparent2:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, white, transparent);
+}
+
+.div-arrow-down2:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -36px;
+	left: calc(50% - 7px);
+	width: 70px;
+	height: 70px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+
+.tan{
+    text-align: center;
+    height: auto;
+    font-size: 2.7rem;
+    background-color: #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(/img/Group\ 26.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: bottom left;
+}
+
+.tan img{ 
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.tan h2{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Tangerine', cursive;
+    font-weight: 600;
+    display: inline;
+}
+
+.tan p{
+    font-size: 25px;
+    padding-left: 35%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+@media screen and (max-width:1100px) {
+    .tan{
+      background-image: none;
+    }
+
+    .tan p{
+        text-align: center;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .price{
+        background-image: none;
+    }
+}
+
+.price{
+    height: auto;
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 100px;
+    background-image: url(/img/Group\ 21.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: bottom right;
+    padding-bottom: 50px;
+}
+
+.psz{
+    font-size: 20px;
+}
+
+.price h2{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Tangerine', cursive;
+    font-weight: 600;
+}
+
+.price table{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 22%;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0px 50px;
+}
+
+.price table .left{
+    text-align: left;
+    padding-left: 100px;
+    border-left: 2px solid #FFD8EE;
+}
+
+.price table .right{
+    text-align: right;
+    padding-right: 100px;
+    border-right: 2px solid #FFD8EE;
+}
+
+@media screen and (max-width:1500px) {
+    .price{
+        background-image: none;
+    }
+
+    .price table{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .price table .left{
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+    .price table .right{
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .psz{
+        padding: 0 20px 0 20px;
+    }
+}
